@@ -8,7 +8,7 @@ export default function Carrousel() {
 	const settings = {
 		dots: false,
 		infinite: true,
-		speed: 500,
+		speed: 400,
 		autoplay: true,
 	};
 	return (

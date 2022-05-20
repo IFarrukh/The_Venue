@@ -1,6 +1,7 @@
 import './resources/styles.css';
 import Header from './components/header_footer/Header';
 import Featured from './components/featured/Featured';
+import VenueNfo from './components/venueinfo/VenueNfo';
 function App() {
 	return (
 		<div
@@ -8,6 +9,7 @@ function App() {
 			style={{ height: '1500px', background: 'cornflowerblue' }}>
 			<Header />
 			<Featured />
+			<VenueNfo />
 		</div>
 	);
 }

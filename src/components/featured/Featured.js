@@ -6,7 +6,7 @@ export default function Featured() {
 		<div style={{ position: 'relative' }}>
 			<Carrousel />
 			<div className='artist_name'>
-				<div className='wrapper'>Ariana Grande</div>
+				<div className='wrapper'>Coding Workshop</div>
 			</div>
 			<CountTime />
 		</div>
