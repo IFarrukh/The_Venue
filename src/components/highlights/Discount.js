@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
+import Buttons from '../utils/Buttons';
 
 export default function Discount() {
 	const [discountStarts, setDiscountStarts] = useState(0);
@@ -35,7 +36,12 @@ export default function Discount() {
 							ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum
 							dolor sit amet consectetur adipisicing elit.
 						</p>
-						<div>Button</div>
+						<Buttons
+							text='Purchase tickets'
+							bck='#ffa800'
+							color='#fff'
+							link='http://google.com'
+						/>
 					</div>
 				</Slide>
 			</div>
